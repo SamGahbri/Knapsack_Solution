@@ -55,9 +55,7 @@ namespace Knapsack_Solution
 
         private static void FillBag()
         {
-            //Work out what our algorithm is
-            //Add the items which are of the most value to the bag to the weight limit
-
+           
             var orderedItems = _Items.OrderByDescending(item => item.Ratio);
 
             foreach (var item in orderedItems)

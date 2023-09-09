@@ -50,6 +50,7 @@ namespace Knapsack_Solution
             OutputBagContents(bag);
             Add5Items();
             _Bag.Capacity = SetCapacity();
+            FillBag();
         }
 
         private static void FillBag()
